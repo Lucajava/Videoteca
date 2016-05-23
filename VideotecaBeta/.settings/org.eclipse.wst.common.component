@@ -5,7 +5,7 @@
         <wb-resource deploy-path="/" source-path="/WebContent"/>
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <property name="context-root" value="VideotecaBeta"/>
         <property name="java-output-path" value="/VideotecaBeta/target/classes"/>
-        <property name="context-root" value="SpringHibernateExample"/>
     </wb-module>
 </project-modules>

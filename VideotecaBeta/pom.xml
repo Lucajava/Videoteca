@@ -3,11 +3,11 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.websystique.springmvc</groupId>
-	<artifactId>SpringHibernateExample</artifactId>
+	<groupId>com.videotecabeta.springmvc</groupId>
+	<artifactId>VideotecaBeta</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>SpringHibernateExample</name>
+	<name>VideotecaBeta</name>
 
 	<properties>
 		<springframework.version>4.0.6.RELEASE</springframework.version>
@@ -145,7 +145,7 @@
 			<plugins><plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>2.5</version>
+                    <version>3.1</version>
                     <configuration>
                         <source>1.7</source>
                         <target>1.7</target>
@@ -157,13 +157,13 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>SpringHibernateExample</warName>
+						<warName>VideotecaBeta</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<finalName>SpringHibernateExample</finalName>
+		<finalName>VideotecaBeta</finalName>
 	</build>
 </project>
 
