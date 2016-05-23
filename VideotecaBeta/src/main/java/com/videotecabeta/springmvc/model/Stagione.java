@@ -8,16 +8,17 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "CATEGORIA")
-public class Categoria {
+@Table(name = "STAGIONE")
+public class Stagione {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@Column(name = "NOME", nullable = false)
-	private int nome;
+	@Column(name = "NUMERO_PUNTATE", nullable = false)
+	private int numero_puntate;
 	
-	@Column(name = "DESCRIZIONE", nullable = false)
-	private int descrizione;
+	@Column(name = "ANNO_PRODUZIONE", nullable = false)
+	private int anno_prod;
+
 }
